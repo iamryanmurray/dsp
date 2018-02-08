@@ -62,7 +62,13 @@ ls - Glp: long listing, don't print group names, append / indicator to directori
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+ls -q: display all nonprinting characters as **?**  
+ls -R: display subdirectories as well  
+ls -1: display each entry on a line  
+ls -u: display the files by file access time  
+ls -f: interprets each name as a directory, not a file  
 
 ---
 
