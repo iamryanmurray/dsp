@@ -20,7 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+* show current working directory path: pwd
+* creating a directory" mkdir new_directory
+* deleting a directory: rm -r directory
+* creating a file using `touch` command: touch new_file
+* deleting a file: rm filename
+* renaming a file: mv old_name new_name
+* listing hidden files: ls -
+* copying a file from one directory to another: cp source_file destination
+* run command with super user priveleges: sudo command
+* change to directory one level up: cd ../
 
 ---
 
@@ -35,7 +46,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls: short listing
+ls -a: listing including hidden files
+ls -l: long listing
+ls -lh: long listing with human readable file sizes
+ls -lah: long listing including hidden files with human readable file sizes
+ls - t: sort by modification time, newest first
+ls - Glp: long listing, don't print group names, append / indicator to directories
+
 
 ---
 
