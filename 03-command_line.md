@@ -23,7 +23,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > 
 
 * show current working directory path: pwd
-* creating a directory" mkdir new_directory
+* creating a directory: mkdir new_directory
 * deleting a directory: rm -r directory
 * creating a file using `touch` command: touch new_file
 * deleting a file: rm filename
