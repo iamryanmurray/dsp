@@ -76,7 +76,13 @@ ls -f: interprets each name as a directory, not a file
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > The xargs command allows one to build an execution pipeline from standard input.  It allows tools like rm and mkdir to accept standard input as arguments.  
+
+An example of xargs use is with the find command:  
+
+`find /tmp -mtime +14 | xargs rm`
+
+This take any files in the temp folder older than two weeks and pipe them to the rm command with xargs.
 
  
 
