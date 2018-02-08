@@ -47,13 +47,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
-ls: short listing
-ls -a: listing including hidden files
-ls -l: long listing
-ls -lh: long listing with human readable file sizes
-ls -lah: long listing including hidden files with human readable file sizes
-ls - t: sort by modification time, newest first
-ls - Glp: long listing, don't print group names, append / indicator to directories
+ls: short listing  
+ls -a: listing including hidden files  
+ls -l: long listing  
+ls -lh: long listing with human readable file sizes  
+ls -lah: long listing including hidden files with human readable file sizes  
+ls - t: sort by modification time, newest first  
+ls - Glp: long listing, don't print group names, append / indicator to directories  
 
 
 ---
