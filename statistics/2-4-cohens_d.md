@@ -3,8 +3,6 @@
 ```python
 
 import numpy as np
-import first
-import thinkstats2
 import nsfg
 
 preg = nsfg.ReadFemPreg()
