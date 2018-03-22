@@ -12,6 +12,7 @@ firsts = live[live.birthord == 1]
 others = live[live.birthord != 1]
 
 def CohenEffectSize(group1, group2):
+    #function from thinkstats ipynb
     diff = abs(group1.mean(),group2.mean())
     
     var1 = group1.var()
@@ -28,8 +29,8 @@ length_d = CohenEffectSize(firsts.prglngth,others.prglngth)
 
 totalwgt_lb_d = CohenEffectSize(firsts.totalwgt_lb,others.totalwgt_lb)
 
-print length_d
-pring totalwgt_lb_d
+print(length_d)
+print(totalwgt_lb_d)
 
 ```
 
